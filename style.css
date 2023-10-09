@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Handjet&family=Rubik+Pixels&display=swap');
+
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content:center;
+    font-family: 'Handjet', cursive;
+}
+#text-input{
+    padding: 20px;
+  border:2px solid rgb(65, 255, 35);
+  font-size:22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: Cambria;
+  background-color: rgba(0, 0, 0, 0.903);
+  color:rgb(65, 255, 35);
+}
+.hack{
+    position: absolute;
+    top:0;
+    z-index: 0;
+}
+section{
+    margin:30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    gap:0;
+    padding:20px;
+    background-color: rgba(10, 10, 10, 0.786);
+    z-index: 10;
+    border:3px solid rgb(65, 255, 35);
+    
+}  
+.borderC{
+    color:red;
+    border-color: red;
+    border-width: 5px;
+    
+}
+.detail{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding:20px;
+   font-size: 20px;
+   font-weight: 700;
+   color:rgb(65, 255, 35);
+   /* background-color: black; */
+}
+#character-count,#remaining-count{
+    color:rgb(5, 255, 55);
+}
+h2{
+    /* background-color: black; */
+    color:rgb(65, 255, 35);
+    padding:20px;
+}
