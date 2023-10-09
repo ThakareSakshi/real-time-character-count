@@ -5,6 +5,10 @@ let  remainingCount=document.getElementById("remaining-count");
 
 textInput.addEventListener("keyup",(e)=>{
     let count=textInput.value.length;
+    
+    characterCount.innerText=count;
+    remainingCount.innerText=100-count;
+    console.log(document.getElementById("text-input").value.length);
     if(count>=100){
        
         document.querySelector("section").classList.add("borderC");
@@ -17,8 +21,5 @@ textInput.addEventListener("keyup",(e)=>{
         document.querySelector("h2").classList.remove("borderC");
         document.querySelector(".detail").classList.remove("borderC");
     }
-    characterCount.innerText=count;
-    remainingCount.innerText=100-count;
-    console.log(document.getElementById("text-input").value.length);
    
 })
